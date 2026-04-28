@@ -1,3 +1,4 @@
+package BankingSystem;
 
 public class Customer extends User{
 	private Account[] accounts;
@@ -103,6 +104,7 @@ public class Customer extends User{
 	public boolean transferToOusideAccounts(int recievingCustomer, int sendingAccountID, int recievingAccountID, double amount) {
 		
 		return false; // need to implement still...
+					  // may need to implemetnt this in the cient since it sends so many messages...
 	}
 	
 }
